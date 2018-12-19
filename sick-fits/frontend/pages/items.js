@@ -1,8 +1,9 @@
 import {Fragment} from 'react';
+import ItemsComponent from '../components/Items';
 
 const Items = props => (
     <Fragment>
-        <p>Items!</p>
+        <ItemsComponent />
     </Fragment>
 );
 
