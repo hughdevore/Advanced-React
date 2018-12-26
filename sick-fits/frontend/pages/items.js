@@ -1,10 +1,3 @@
-import {Fragment} from 'react';
-import ItemsComponent from '../components/Items';
-
-const Items = props => (
-    <Fragment>
-        <ItemsComponent />
-    </Fragment>
-);
+import Items from './index';
 
 export default Items;
