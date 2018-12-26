@@ -33,7 +33,6 @@ const ItemsList = styled.div`
 
 class Items extends Component {
   render() {
-    console.log(this.props);
     const page = this.props.page;
     return (
       <Center>
