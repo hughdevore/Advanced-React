@@ -1,13 +1,13 @@
 import { Fragment } from 'react';
 import PleaseSignIn from '../components/PleaseSignIn';
-import OrderList from '../components/OrderList';
+import Order from '../components/Order';
 
-const OrdersPage = props => (
+const OrderPage = props => (
   <Fragment>
     <PleaseSignIn>
-      <OrderList />
+      <Order id={props.query.id} />
     </PleaseSignIn>
   </Fragment>
 );
 
-export default OrdersPage;
+export default OrderPage;
