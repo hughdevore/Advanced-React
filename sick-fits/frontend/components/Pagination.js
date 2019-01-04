@@ -26,7 +26,7 @@ class Pagination extends Component {
           const page = this.props.page;
           const pages = Math.ceil(count / perPage);
           return (
-            <PaginationStyles>
+            <PaginationStyles data-test="pagination">
               <Head>
                 <title>
                   Sick Fits - Page {page} of {pages}
@@ -44,7 +44,7 @@ class Pagination extends Component {
                 </a>
               </Link>
               <p>
-                Page {page} of {pages}
+                Page {page} of <span className="totalPages">{pages}</span>
               </p>
               <p>{count} Items Total</p>
               <Link
@@ -67,3 +67,4 @@ class Pagination extends Component {
 }
 
 export default Pagination;
+export { PAGINATION_QUERY };

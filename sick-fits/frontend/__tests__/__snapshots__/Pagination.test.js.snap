@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> renders pagination for 18 items 1`] = `
+Array [
+  <PaginationStyles
+    data-test="pagination"
+  >
+    <StyledComponent
+      data-test="pagination"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "PaginationStyles-aduuar-0",
+            "isStatic": false,
+            "lastClassName": "ewJsCc",
+            "rules": Array [
+              "text-align:center;display:inline-grid;grid-template-columns:repeat(4,auto);align-items:stretch;justify-content:center;align-content:center;margin:2rem 0;border:1px solid ",
+              [Function],
+              ";border-radius:10px;& > *{margin:0;padding:15px 30px;border-right:1px solid ",
+              [Function],
+              ";&:last-child{border-right:0;}}a[aria-disabled='true']{color:grey;pointer-events:none;}",
+            ],
+          },
+          "displayName": "PaginationStyles",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "PaginationStyles-aduuar-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="PaginationStyles-aduuar-0 ewJsCc"
+        data-test="pagination"
+      >
+        <SideEffect(Head)>
+          <Head />
+        </SideEffect(Head)>
+        <Link
+          href={
+            Object {
+              "pathname": "/items",
+              "query": Object {
+                "page": 0,
+              },
+            }
+          }
+          prefetch={true}
+        >
+          <a
+            aria-disabled={true}
+            className="prev"
+            href="/items?page=0"
+            onClick={[Function]}
+          >
+            ⬅ Prev
+          </a>
+        </Link>
+        <p>
+          Page 
+          1
+           of 
+          <span
+            className="totalPages"
+          >
+            5
+          </span>
+        </p>
+        <p>
+          18
+           Items Total
+        </p>
+        <Link
+          href={
+            Object {
+              "pathname": "/items",
+              "query": Object {
+                "page": 2,
+              },
+            }
+          }
+          prefetch={true}
+        >
+          <a
+            aria-disabled={false}
+            className="next"
+            href="/items?page=2"
+            onClick={[Function]}
+          >
+            Next ➡
+          </a>
+        </Link>
+      </div>
+    </StyledComponent>
+  </PaginationStyles>,
+  <StyledComponent
+    data-test="pagination"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "PaginationStyles-aduuar-0",
+          "isStatic": false,
+          "lastClassName": "ewJsCc",
+          "rules": Array [
+            "text-align:center;display:inline-grid;grid-template-columns:repeat(4,auto);align-items:stretch;justify-content:center;align-content:center;margin:2rem 0;border:1px solid ",
+            [Function],
+            ";border-radius:10px;& > *{margin:0;padding:15px 30px;border-right:1px solid ",
+            [Function],
+            ";&:last-child{border-right:0;}}a[aria-disabled='true']{color:grey;pointer-events:none;}",
+          ],
+        },
+        "displayName": "PaginationStyles",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "PaginationStyles-aduuar-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <div
+      className="PaginationStyles-aduuar-0 ewJsCc"
+      data-test="pagination"
+    >
+      <SideEffect(Head)>
+        <Head />
+      </SideEffect(Head)>
+      <Link
+        href={
+          Object {
+            "pathname": "/items",
+            "query": Object {
+              "page": 0,
+            },
+          }
+        }
+        prefetch={true}
+      >
+        <a
+          aria-disabled={true}
+          className="prev"
+          href="/items?page=0"
+          onClick={[Function]}
+        >
+          ⬅ Prev
+        </a>
+      </Link>
+      <p>
+        Page 
+        1
+         of 
+        <span
+          className="totalPages"
+        >
+          5
+        </span>
+      </p>
+      <p>
+        18
+         Items Total
+      </p>
+      <Link
+        href={
+          Object {
+            "pathname": "/items",
+            "query": Object {
+              "page": 2,
+            },
+          }
+        }
+        prefetch={true}
+      >
+        <a
+          aria-disabled={false}
+          className="next"
+          href="/items?page=2"
+          onClick={[Function]}
+        >
+          Next ➡
+        </a>
+      </Link>
+    </div>
+  </StyledComponent>,
+  <div
+    className="PaginationStyles-aduuar-0 ewJsCc"
+    data-test="pagination"
+  >
+    <SideEffect(Head)>
+      <Head />
+    </SideEffect(Head)>
+    <Link
+      href={
+        Object {
+          "pathname": "/items",
+          "query": Object {
+            "page": 0,
+          },
+        }
+      }
+      prefetch={true}
+    >
+      <a
+        aria-disabled={true}
+        className="prev"
+        href="/items?page=0"
+        onClick={[Function]}
+      >
+        ⬅ Prev
+      </a>
+    </Link>
+    <p>
+      Page 
+      1
+       of 
+      <span
+        className="totalPages"
+      >
+        5
+      </span>
+    </p>
+    <p>
+      18
+       Items Total
+    </p>
+    <Link
+      href={
+        Object {
+          "pathname": "/items",
+          "query": Object {
+            "page": 2,
+          },
+        }
+      }
+      prefetch={true}
+    >
+      <a
+        aria-disabled={false}
+        className="next"
+        href="/items?page=2"
+        onClick={[Function]}
+      >
+        Next ➡
+      </a>
+    </Link>
+  </div>,
+]
+`;
