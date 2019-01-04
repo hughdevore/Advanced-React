@@ -1,11 +1,10 @@
-import { Fragment } from 'react';
 import Link from 'next/link';
+import { Mutation } from 'react-apollo';
+import { TOGGLE_CART_MUTATION } from './Cart';
 import NavStyles from './styles/NavStyles';
 import User from './User';
-import Signout from './Signout';
-import { Mutation } from 'react-apollo';
-import { TOGGLE_CART_MUTATION } from '../components/Cart';
 import CartCount from './CartCount';
+import Signout from './Signout';
 
 const Nav = () => (
   <User>
@@ -15,14 +14,14 @@ const Nav = () => (
           <a>Shop</a>
         </Link>
         {me && (
-          <Fragment>
+          <>
             <Link href="/sell">
               <a>Sell</a>
             </Link>
             <Link href="/orders">
               <a>Orders</a>
             </Link>
-            <Link href="/account">
+            <Link href="/me">
               <a>Account</a>
             </Link>
             <Signout />
@@ -39,7 +38,7 @@ const Nav = () => (
                 </button>
               )}
             </Mutation>
-          </Fragment>
+          </>
         )}
         {!me && (
           <Link href="/signup">

@@ -31,8 +31,8 @@ type Item {
 type CartItem {
   id: ID! @unique
   quantity: Int! @default(value: 1)
-  item: Item
-  user: User!
+  item: Item # relationship to Item
+  user: User! # relationship to User
 }
 
 type OrderItem {
